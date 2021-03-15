@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.beingyi.app.AE.view.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/white"
+	android:descendantFocusability="blocksDescendants"
+	app:mrl_rippleAlpha="0.2"
+	app:mrl_rippleColor="#585858"
+	app:mrl_rippleHover="true"
+	app:mrl_rippleOverlay="true" >
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+	<TextView
+		android:layout_height="40dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:id="@+id/item_menu_TextView1"
+		android:textSize="15sp"
+		android:background="#FF0D907C"
+		android:textColor="#FFFFFFFF"
+		android:layout_margin="1dp"/>
+
+
+	</RelativeLayout>
+
+
+</com.beingyi.app.AE.view.MaterialRippleLayout>

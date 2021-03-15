@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <com.beingyi.app.AE.ui.CustomHorizontalScrollview
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/content_main_LinearLayout_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <android.support.v4.widget.SwipeRefreshLayout
+                    android:id="@+id/content_main_SwipeRefreshLayout1"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent">
+
+
+                    <ListView
+                        android:id="@+id/content_main_ListView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fastScrollEnabled="true" />
+
+
+                </android.support.v4.widget.SwipeRefreshLayout>
+
+                <View
+                    android:id="@+id/content_main_view"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/dividerHorizontal" />
+
+            </LinearLayout>
+
+
+        </com.beingyi.app.AE.ui.CustomHorizontalScrollview>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/AppColor"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/content_main_toolbar_menu"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

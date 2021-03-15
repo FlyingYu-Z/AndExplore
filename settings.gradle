@@ -1,0 +1,7 @@
+include ':app'
+//include ':apkfairy'
+include ':CodeEditor'
+
+
+//project (':apkfairy').projectDir = new File('apkfairy')
+project (':CodeEditor').projectDir = new File('CodeEditor')

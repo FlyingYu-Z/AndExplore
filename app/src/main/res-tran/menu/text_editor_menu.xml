@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_texteditor_undo"
+        android:orderInCategory="100"
+        android:title="@string/ae_bd9fcf46b4e5993f97fe04ee9ebcd7ed"
+        android:icon="@drawable/ic_undo"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_texteditor_redo"
+        android:orderInCategory="100"
+        android:title="@string/ae_c3c873d33f1c6482c79b0ffd862786cd"
+        android:icon="@drawable/ic_redo"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_texteditor_find"
+        android:orderInCategory="100"
+        android:title="@string/ae_dc5d07a1867b1c0b57153afe054d0332"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_texteditor_save"
+        android:orderInCategory="100"
+        android:title="@string/ae_be5fbbe34ce9979bfb6576d9eddc5612"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_texteditor_exit"
+        android:orderInCategory="100"
+        android:title="@string/ae_c3992269b4bced00356095dc9c5be6d2"
+        app:showAsAction="never" />
+
+</menu>

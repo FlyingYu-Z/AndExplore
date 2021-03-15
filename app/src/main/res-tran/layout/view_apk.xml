@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+
+		<ImageView
+			android:src="@drawable/ic_android"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:id="@+id/view_apk_ImageView_icon"/>
+
+		<LinearLayout
+			android:layout_marginLeft="10dp"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/ae_5b47861521d533de5a72ad8fc43a5051"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:textStyle="bold"
+				android:id="@+id/view_apk_TextView_label"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/ae_0b2bd723f74c95966ac15443c0803373"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/view_apk_TextView_pakName"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp">
+
+		<Button
+			android:layout_width="match_parent"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="@string/ae_607e7a4f377fa66b0b28ce318aab841f"
+			android:layout_weight="1.0"
+			android:id="@+id/view_apk_Button_view"/>
+
+		<Button
+			android:layout_width="match_parent"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="@string/ae_e655a410ff21cd07e7a0150491e04371"
+			android:layout_weight="1.0"
+			android:id="@+id/view_apk_Button_install"/>
+
+        <Button
+            android:layout_width="match_parent"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_24d67862f87f439db7ca957aecb77cce"
+            android:layout_weight="1.0"
+            android:id="@+id/view_apk_Button_property"/>
+        
+		<Button
+			android:layout_width="match_parent"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="@string/ae_4ccbdc5301f47f2bd0c79f92fad4bce7"
+			android:layout_weight="1.0"
+			android:id="@+id/view_apk_Button_menu"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

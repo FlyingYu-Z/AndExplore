@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_marginTop="?attr/actionBarSize">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:background="?attr/nobg"
+			android:orientation="horizontal">
+
+			<android.support.v4.widget.SwipeRefreshLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1.0"
+				android:id="@+id/contentmainSwipeRefreshLayout1">
+
+				<FrameLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:layout_weight="1.0">
+
+					<ProgressBar
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_gravity="center"
+						android:id="@+id/activitymainProgressBar1"/>
+
+					<ListView
+						android:layout_height="match_parent"
+						android:layout_width="match_parent"
+						android:id="@+id/activitymainListView1"/>
+
+				</FrameLayout>
+
+			</android.support.v4.widget.SwipeRefreshLayout>
+
+			<View
+				android:background="?android:attr/dividerHorizontal"
+				android:layout_height="match_parent"
+				android:layout_width="1dp"/>
+
+			<android.support.v4.widget.SwipeRefreshLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1.0"
+				android:id="@+id/contentmainSwipeRefreshLayout2">
+
+				<FrameLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:layout_weight="1.0">
+
+					<ProgressBar
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_gravity="center"
+						android:id="@+id/activitymainProgressBar2"/>
+
+					<ListView
+						android:layout_height="match_parent"
+						android:layout_width="match_parent"
+						android:id="@+id/activitymainListView2"/>
+
+				</FrameLayout>
+
+			</android.support.v4.widget.SwipeRefreshLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="35dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="?attr/bg"
+			android:gravity="left|center"
+			android:visibility="visible"
+			android:id="@+id/activitymainLinearLayout_bottomLeader"
+			android:layout_gravity="bottom">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="用户软件"
+				android:gravity="center"
+				android:layout_weight="1.0"
+				android:clickable="true"
+				android:id="@+id/activitymainTextView_left"
+				android:textColor="#FFFFFF"/>
+
+			<View
+				android:background="?android:attr/dividerHorizontal"
+				android:layout_height="match_parent"
+				android:layout_width="1dp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="系统软件"
+				android:gravity="center"
+				android:layout_weight="1.0"
+				android:clickable="true"
+				android:id="@+id/activitymainTextView_right"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+</LinearLayout>
+

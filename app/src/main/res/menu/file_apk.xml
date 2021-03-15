@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_apk_sign"
+        android:title="签名"/>
+
+    <item
+        android:id="@+id/action_apk_enString"
+        android:title="加密字符串"/>
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_apk_conexist"
+        android:title="制作共存"/>
+
+    <item
+        android:id="@+id/action_apk_injectModule"
+        android:title="植入模块"/>
+
+</menu>

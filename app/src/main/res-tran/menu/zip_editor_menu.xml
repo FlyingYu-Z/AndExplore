@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+    android:id="@+id/add_entry"
+    android:title="@string/ae_8d0cfb582a50e3872522d075934cff44"
+    />
+    <item
+        android:id="@+id/save_file"
+        android:title="@string/ae_7f2c95cd698b6b004a3545b341874cf2"
+        >
+    </item>
+    <item
+        android:id="@+id/replace_axml"
+        android:title="@string/ae_d33bf980a1b29e591aa1f980fff0515c"
+        />
+   
+</menu>       
+ 

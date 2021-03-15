@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_texteditor_undo"
+        android:orderInCategory="100"
+        android:title="撤销"
+        android:icon="@drawable/ic_undo"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_texteditor_redo"
+        android:orderInCategory="100"
+        android:title="重做"
+        android:icon="@drawable/ic_redo"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_texteditor_find"
+        android:orderInCategory="100"
+        android:title="查找"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_texteditor_save"
+        android:orderInCategory="100"
+        android:title="保存"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_texteditor_exit"
+        android:orderInCategory="100"
+        android:title="退出"
+        app:showAsAction="never" />
+
+</menu>

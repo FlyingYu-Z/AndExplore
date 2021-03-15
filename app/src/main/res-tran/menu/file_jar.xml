@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/action_jar_view"
+        android:title="@string/ae_607e7a4f377fa66b0b28ce318aab841f"/>
+
+    <item
+        android:id="@+id/action_jar_toDex"
+        android:title="@string/ae_f13000cf96f5104b77b10f0576c8f0e9"/>
+
+    <item
+        android:id="@+id/action_jar_obfuse"
+        android:title="@string/ae_268bcc8f3cacb3c07701102ae42bcc37"/>
+    
+</menu>

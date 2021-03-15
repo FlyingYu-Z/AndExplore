@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:7:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:8:5-97
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:12:22-63
+application
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:14:5-44:19
+	android:supportsRtl
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:16:9-35
+	android:allowBackup
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:17:9-40
+activity#com.beingyi.apkfairy.activity.MainActivity
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:19:9-22:47
+	android:label
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:22:13-45
+	android:theme
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:21:13-56
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:20:13-70
+activity#com.beingyi.apkfairy.activity.setting
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:25:9-29:47
+	android:label
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:29:13-45
+	android:exported
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:26:13-65
+activity#com.beingyi.apkfairy.activity.backuped
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:32:9-36:47
+	android:label
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:36:13-45
+	android:exported
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:34:13-36
+	android:theme
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:33:13-66
+activity#com.beingyi.apkfairy.activity.launch
+ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:38:9-41:47
+	android:label
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:41:13-45
+	android:theme
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml:39:13-64
+uses-sdk
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+		ADDED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml
+		INJECTED from E:\MyData\AndroidProjects\AndExplore\apkfairy\src\main\AndroidManifest.xml

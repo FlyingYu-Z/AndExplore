@@ -1,0 +1,88 @@
+dexlib2
+https://mvnrepository.com/artifact/org.smali/dexlib2
+The BSD 3-Clause License
+dexlib2 is a library for reading/modifying/writing Android dex files
+#
+#
+#
+Findbugs
+https://mvnrepository.com/artifact/com.google.code.findbugs/jsr305
+Apache 2.0
+JSR305 Annotations for Findbugs
+#
+#
+#
+Guava
+https://mvnrepository.com/artifact/com.google.guava/guava
+Apache 2.0
+Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.
+#
+#
+#
+ASM All
+https://mvnrepository.com/artifact/org.ow2.asm/asm-all
+BSD
+No description
+#
+#
+#
+zip-signer
+https://code.google.com/archive/p/zip-signer/
+Apache 2.0
+API and app for signing Zip, Apk, and/or Jar files onboard Android devices.
+#
+#
+#
+dx
+http://developer.android.com/guide/developing/tools/index.html
+Apache 2.0
+dx is an Android SDK platform tool that transforms Java bytecode (and JARs) into Dalvik VM 'DEX' code.
+#
+#
+#
+Apache Commons
+http://hao.jobbole.com/apache-commons/
+Apache 2.0
+No description
+#
+#
+#
+xUtils3
+https://github.com/wyouflf/xUtils3
+Apache 2.0
+android orm, bitmap, http, view inject...
+#
+#
+#
+zip4j
+https://github.com/srikanth-lingala/zip4j
+Apache 2.0
+A Java library for zip files and streams
+#
+#
+#
+CodeView
+https://github.com/avraampiperidis/Codeview
+MIT License
+Codeview is a android library tha lets you preview code in webview very easy and simple with highlighs and colors. With styles to chooses and language.
+#
+#
+#
+JADX
+https://github.com/skylot/jadx
+Apache 2.0
+Dex to Java decompiler
+#
+#
+#
+dex2jar
+https://github.com/pxb1988/dex2jar
+Apache 2.0
+Tools to work with android .dex and java .class files
+#
+#
+#
+TextWarrior
+https://github.com/VGurre/TextWarrior
+Apache 2.0
+Android library project based on TextWarrior

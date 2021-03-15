@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.TextEditor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/activity_texteditor_Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        <com.beingyi.app.AE.view.CodeEditor
+            android:id="@+id/activity_texteditor_CodeEditor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0" />
+
+        <LinearLayout
+            android:id="@+id/activity_texteditor_LinearLayout_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/activity_texteditor_AppCompatEditText_find_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textSize="12sp" />
+
+
+                <Button
+                    android:id="@+id/activity_texteditor_Button_up"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="向上"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/activity_texteditor_Button_down"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="向下"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

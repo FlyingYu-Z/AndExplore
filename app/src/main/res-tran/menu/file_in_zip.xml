@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/action_inzip_copy"
+        android:title="@string/ae_79d3abe929f67f0644a78bf32adb3a89"/>
+
+    <item
+        android:id="@+id/action_inzip_delete"
+        android:title="@string/ae_2f4aaddde33c9b93c36fd2503f3d122b"/>
+    <item
+        android:id="@+id/action_inzip_rename"
+        android:visible="false"
+        android:title="@string/ae_c8ce4b36cb6a0ff587974a738f32facf"/>
+    <item
+        android:id="@+id/action_inzip_details"
+        android:visible="false"
+        android:title="@string/ae_f26225bde6a250894a04db4c53ea03d0"/>
+    
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_dex_edit"
+        android:title="@string/ae_95b351c86267f3aedf89520959bce689"/>
+
+    <item
+        android:id="@+id/action_dex_tojar"
+        android:title="@string/ae_7b9aff087e2e8f50ba7b8bf3a95218a8"/>
+
+    <item
+        android:id="@+id/action_dex_toSmali"
+        android:title="@string/ae_496037d20b67b1ce7069fe25e704603c"/>
+
+    <item
+        android:id="@+id/action_dex_toJava"
+        android:title="@string/ae_30812cd8bf0480ed06cfa921aacb5c7f"/>
+
+    <item
+        android:id="@+id/action_dex_addDex"
+        android:title="@string/ae_bb93150b71d4c55dddc3d543ffc01f11"/>
+
+    <item
+        android:id="@+id/action_dex_enString"
+        android:title="@string/ae_5358fe1e03cbd9b8285097976a4356e5"/>
+
+</menu>

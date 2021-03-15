@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/view_permissions_LinearLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="读"></TextView>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="写"></TextView>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="执行"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_permissions_LinearLayout04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="所有者"></TextView>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOwnRead"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOwnWrite"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOwnExec"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_permissions_LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="用户组"></TextView>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckGrpRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckGrpWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckGrpExec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_permissions_linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="其它"></TextView>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOthRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOthWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOthExec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+    </LinearLayout>
+
+
+
+</LinearLayout>

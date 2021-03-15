@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/view_app_manager_SearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_weight="1.0"
+        android:padding="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:id="@+id/view_app_manager_SwipeRefreshLayout1">
+
+                <FrameLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1.0">
+
+                    <ProgressBar
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/view_app_manager_ProgressBar1"/>
+
+                    <ListView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:id="@+id/view_app_manager_ListView1"/>
+
+                </FrameLayout>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+            <View
+                android:background="?android:attr/dividerHorizontal"
+                android:layout_height="match_parent"
+                android:layout_width="1dp"/>
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:id="@+id/view_app_manager_SwipeRefreshLayout2">
+
+                <FrameLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1.0">
+
+                    <ProgressBar
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/view_app_manager_ProgressBar2"/>
+
+                    <ListView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:id="@+id/view_app_manager_ListView2"/>
+
+                </FrameLayout>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        android:visibility="visible"
+        android:id="@+id/view_app_manager_LinearLayout_bottomLeader"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:text="@string/ae_88d529fec4e3652e91ed56ae327de883"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:id="@+id/view_app_manager_TextView_left"/>
+
+        <View
+            android:background="?android:attr/dividerHorizontal"
+            android:layout_height="match_parent"
+            android:layout_width="1dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:text="@string/ae_abfa6c90d466e47f420f21cda2c87b0a"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:id="@+id/view_app_manager_TextView_right"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

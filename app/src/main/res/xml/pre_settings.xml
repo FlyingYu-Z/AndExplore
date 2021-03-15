@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="文件设置">
+
+    <SwitchPreference
+        android:title="显示隐藏文件"
+        android:summary="显示以点号开头的文件"
+        android:key="pre_settings_viHideFiles"
+        android:defaultValue="true"/>
+
+
+    <SwitchPreference
+        android:title="隐藏粘贴文件弹窗"
+        android:summary="隐藏点击粘贴按钮时出现的对话框"
+        android:key="pre_settings_hidePasteDialog"
+        android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="签名私匙">
+        <CheckBoxPreference
+            android:key="useKey"
+            android:title="自定义签名私匙"
+            android:summary="签名时使用此私匙来给apk签名"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="confKey"
+            android:title="配置签名私匙 "/>
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory android:title="其它">
+
+    <ListPreference
+        android:title="语言"
+        android:summary="更换软件的界面语言"
+        android:entries="@array/language"
+        android:entryValues="@array/language_value"
+        android:key="pre_settings_language"/>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

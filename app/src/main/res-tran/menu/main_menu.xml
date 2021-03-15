@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_main_search"
+        android:orderInCategory="100"
+        android:title="@string/ae_e5f71fc31e7246dd6ccc5539570471b0"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_main_collection"
+        android:orderInCategory="100"
+        android:title="@string/ae_46779389fd987dbf051faee01df3bfaf"
+        android:icon="@drawable/ic_collection"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_main_new"
+        android:orderInCategory="100"
+        android:title="@string/ae_26bb8418786593149c0bf9f8970ab6de"
+        android:icon="@drawable/ic_new"
+        app:showAsAction="always" />
+
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_main_back"
+        android:orderInCategory="100"
+        android:title="@string/ae_5094c1a3288c2c1bbca50e0aeb086079"
+        android:icon="@drawable/ic_back"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_main_home"
+        android:orderInCategory="100"
+        android:title="@string/ae_b04ec75cdeaa52470e063d6734d14a95"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always" />
+
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_main_ahead"
+        android:orderInCategory="100"
+        android:title="@string/ae_5811e2837b7938e7f853919060835de6"
+        android:icon="@drawable/ic_ahead"
+        app:showAsAction="always" />
+
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_main_go"
+        android:orderInCategory="100"
+        android:title="@string/ae_2ee547f0d6d17daa1b5edcc7644816fd"
+        android:icon="@drawable/ic_go"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_main_refresh"
+        android:orderInCategory="100"
+        android:title="@string/ae_694fc5efa9e1d1c2c5eb6525e1c7fb29"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_main_apps"
+        android:orderInCategory="100"
+        android:title="@string/ae_8405e7a4119bc15a0383ea64518f52e6"
+        android:icon="@drawable/ic_android"
+        app:showAsAction="always" />
+
+
+
+</menu>

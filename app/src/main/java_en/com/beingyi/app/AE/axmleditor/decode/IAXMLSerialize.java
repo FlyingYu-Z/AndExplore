@@ -1,0 +1,16 @@
+package com.beingyi.app.AE.axmleditor.decode;
+
+import com.beingyi.app.AE.utils.AesUtil;
+import com.beingyi.app.AE.utils.BASE128;
+import java.io.IOException;
+
+public interface IAXMLSerialize {
+	public int getSize();
+	public int getType();
+	
+	public void setSize(int size);
+	public void setType(int type);
+	
+	public void read(IntReader reader) throws IOException;
+	public void write(IntWriter writer) throws IOException;
+}

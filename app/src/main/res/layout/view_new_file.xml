@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/view_new_file_EditText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/view_new_file_RadioGroup"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/view_new_file_RadioButton_file"
+            android:text="文件"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/view_new_file_RadioButton_dir"
+            android:text="文件夹"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <RadioButton
+            android:id="@+id/view_new_file_RadioButton_zip"
+            android:text="压缩包"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="top|left">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:minWidth="1000dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="包名"
+				android:singleLine="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView2"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="版本名"
+				android:singleLine="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView3"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="版本号"
+				android:singleLine="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView4"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="文件大小"
+				android:singleLine="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView5"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="安装包路径"
+				android:singleLine="false"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView6"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="数据路径"
+				android:singleLine="false"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView7"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="软件类型"
+				android:singleLine="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView8"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="安装时间"
+				android:singleLine="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView9"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="加固类型"
+				android:singleLine="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView10"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="MD5"
+				android:singleLine="false"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView11"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="数字签名"
+				android:singleLine="false"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView12"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="UID"
+				android:singleLine="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView13"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="权限"
+				android:singleLine="false"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView14"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="签名哈西"
+				android:singleLine="false"
+				android:layout_marginTop="10dp"
+				android:id="@+id/viewappinfoTextView15"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

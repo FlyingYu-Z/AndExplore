@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_xml_decompile"
+        android:title="反编译"/>
+    
+    <item
+        android:id="@+id/action_xml_compile"
+        android:title="回编译"/>
+    
+    <item
+        android:id="@+id/action_xml_strings"
+        android:title="字符常量池"/>
+
+    <item
+        android:id="@+id/action_xml_edit"
+        android:title="编辑"/>
+    
+</menu>

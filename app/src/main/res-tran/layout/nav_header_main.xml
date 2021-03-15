@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+        <TextView
+            android:id="@+id/nav_header_main_TextView_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_9b601b8efa642f1b3c8159cd20d061b3"
+            android:textColor="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:id="@+id/nav_header_main_TextView_isRooted"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_bb0ae97fa4e1ef6de884f3ce13029376"
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+
+    <ExpandableListView
+        android:id="@+id/nav_header_main_ExpandableListView_group"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="true"
+        android:groupIndicator="@null"/>
+
+
+</LinearLayout>

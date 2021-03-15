@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore",
+      "sdkFolder": "E:\\Env\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app",
+      "makeFile": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\.cxx",
+      "cxxFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx",
+      "ndkFolder": "E:\\Env\\Android\\Sdk\\ndk\\19.2.5345600",
+      "ndkVersion": "19.2.5345600",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+    "objFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local",
+    "jsonFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\ndkBuild\\release",
+    "gradleBuildOutputFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\ndkBuild\\release\\x86_64",
+  "jsonFile": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\ndkBuild\\release\\x86_64\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\cxx\\release\\x86_64",
+  "objFolder": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64",
+  "buildCommandFile": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\ndkBuild\\release\\x86_64\\build_command.txt",
+  "buildOutputFile": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\ndkBuild\\release\\x86_64\\build_output.txt",
+  "modelOutputFile": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\ndkBuild\\release\\x86_64\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\ndkBuild\\release\\x86_64\\json_generation_record.json",
+  "compileCommandsJsonFile": "E:\\MyData\\AllProjects\\AndroidProjects\\AndExplore\\app\\.cxx\\ndkBuild\\release\\x86_64\\compile_commands.json"
+}

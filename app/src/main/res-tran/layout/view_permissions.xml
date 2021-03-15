@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/view_permissions_LinearLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_75769d1ac812a1d9556e5a79416a1def"></TextView>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_4d7dc6c5f886053abc31cee1376fb5c0"></TextView>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_1a6aa24e762cf41ecbb3ee58d17d5024"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_permissions_LinearLayout04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_b05345caad807fb8d27f6f0502ee6001"></TextView>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOwnRead"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOwnWrite"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOwnExec"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_permissions_LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_e72a0ba45ad7a6ddeebd3f76c61a89be"></TextView>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckGrpRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckGrpWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckGrpExec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_permissions_linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ae_5a0afc9dbd6c2e98769d4620d4fb5b13"></TextView>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOthRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOthWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/view_permissions_ckOthExec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"></CheckBox>
+    </LinearLayout>
+
+
+
+</LinearLayout>

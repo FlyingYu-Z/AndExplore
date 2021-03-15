@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+     
+
+    <item android:state_expanded="false"
+        android:drawingCacheQuality="auto"
+        android:drawable="@drawable/ic_down"/>
+       
+    <item android:state_expanded="true"
+        android:drawingCacheQuality="auto"
+        android:drawable="@drawable/ic_up"/>
+
+</selector>

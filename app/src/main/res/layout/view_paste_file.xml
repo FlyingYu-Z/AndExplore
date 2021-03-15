@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="粘贴到："
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textStyle="bold"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Dest Dir"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginTop="10dp"
+		android:id="@+id/view_paste_file_TextView_destDir"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:singleLine="true"
+		android:id="@+id/view_paste_file_EditText_Name"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp">
+
+		<Button
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="取消"
+			android:layout_weight="1.0"
+			android:id="@+id/view_paste_file_Button_cancel"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="确定"
+			android:layout_weight="1.0"
+			android:id="@+id/view_paste_file_Button_ok"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

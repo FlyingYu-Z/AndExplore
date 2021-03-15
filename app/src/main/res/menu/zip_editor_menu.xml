@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+    android:id="@+id/add_entry"
+    android:title="添加文件"
+    />
+    <item
+        android:id="@+id/save_file"
+        android:title="保存文件"
+        >
+    </item>
+    <item
+        android:id="@+id/replace_axml"
+        android:title="替换xml中字符"
+        />
+   
+</menu>       
+ 

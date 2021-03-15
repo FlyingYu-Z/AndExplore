@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/action_smali_edit"
+        android:title="编辑"/>
+
+    <item
+        android:id="@+id/action_smali_toDex"
+        android:title="转为dex"/>
+
+    <item
+        android:id="@+id/action_smali_toJava"
+        android:title="转为java"/>
+
+</menu>

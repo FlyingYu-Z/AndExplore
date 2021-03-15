@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/dialog_keyinfo_path"
+        android:hint="请输入jks私匙路径(KeyStorePath)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/dialog_keyinfo_keystorePw"
+        android:hint="请输入私匙密码(KeyStorePassWord)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/dialog_keyinfo_certAlias"
+        android:hint="请输入证书别名(Alias)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/dialog_keyinfo_certPw"
+        android:hint="请输入证书密码(CertPassword)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

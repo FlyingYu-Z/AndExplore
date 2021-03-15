@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/action_smali_edit"
+        android:title="@string/ae_95b351c86267f3aedf89520959bce689"/>
+
+    <item
+        android:id="@+id/action_smali_toDex"
+        android:title="@string/ae_f13000cf96f5104b77b10f0576c8f0e9"/>
+
+    <item
+        android:id="@+id/action_smali_toJava"
+        android:title="@string/ae_c81130bd94613dd1f1aeaa858655cd99"/>
+
+</menu>

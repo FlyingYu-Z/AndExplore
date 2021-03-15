@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_backuped"
+            android:icon="@drawable/ic_backuped"
+            android:title="已备份" />
+        <item
+            android:id="@+id/nav_dostr"
+            android:icon="@drawable/ic_lock"
+            android:title="字符加解密" />
+    </group>
+
+    <item android:title="社交">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享本软件" />
+        </menu>
+    </item>
+
+</menu>

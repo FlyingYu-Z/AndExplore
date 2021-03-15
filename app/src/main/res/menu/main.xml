@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_paste"
+        android:orderInCategory="100"
+        android:title="粘贴"
+        android:icon="@drawable/ic_paste"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="排序方式"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="刷新"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_addPath"
+        android:orderInCategory="100"
+        android:title="添加书签"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_addWindow"
+        android:orderInCategory="100"
+        android:title="添加一个窗口"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_removeWindow"
+        android:orderInCategory="100"
+        android:title="移除当前窗口"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_copyCuPath"
+        android:orderInCategory="100"
+        android:title="复制当前路径"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="主页"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="退出"
+        app:showAsAction="never" />
+    
+    
+</menu>

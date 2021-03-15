@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_apk_sign"
+        android:title="@string/ae_be2525ebade48dee835e25c04f130725"/>
+
+    <item
+        android:id="@+id/action_apk_injectLog"
+        android:visible="false"
+        android:title="@string/ae_c8627126b1aa6315f3bf86d929433e81"/>
+
+    <item
+        android:id="@+id/action_apk_enString"
+        android:title="@string/ae_5358fe1e03cbd9b8285097976a4356e5"/>
+
+    <item
+        android:id="@+id/action_apk_injectModule"
+        android:title="@string/ae_826c6563b295ec0f57d52c570e690e77"/>
+
+    <item
+        android:id="@+id/action_apk_addSignVer"
+        android:visible="false"
+        android:title="@string/ae_48a976d1ac02c59bde7eef346325c839"/>
+
+    <item
+        android:id="@+id/action_apk_addShell"
+        android:visible="false"
+        android:title="@string/ae_5ed10dd6bf0659a1a2570aeb818607bf"/>
+
+</menu>

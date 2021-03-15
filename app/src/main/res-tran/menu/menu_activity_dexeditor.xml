@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">>
+
+    <item
+        android:id="@+id/action_dexeditor_saveDex"
+        android:orderInCategory="100"
+        android:title="@string/ae_be5fbbe34ce9979bfb6576d9eddc5612"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_dexeditor_exit"
+        android:orderInCategory="100"
+        android:title="@string/ae_c3992269b4bced00356095dc9c5be6d2"
+        app:showAsAction="never" />
+
+
+</menu>

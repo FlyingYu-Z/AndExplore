@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:background="?attr/nobg"
+	android:orientation="vertical">
+
+	<LinearLayout
+		style="@style/linearlayout_menu_item"
+		android:layout_marginTop="60dp">
+
+		<ImageView
+			android:src="@drawable/ic_store"
+			style="@style/img1_menu_item"/>
+
+		<TextView
+			android:text="备份路径"
+			style="@style/tv1_menu_item"
+			android:textSize="15sp"/>
+
+		<TextView
+			style="@style/tv2_menu_item"
+			android:text="0"
+			android:id="@+id/activitysettingTextView_path"
+			android:textColor="#1233D8"/>
+
+		<ImageView
+			android:src="@drawable/ic_arrow_right"
+			style="@style/img2_menu_item"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:background="#38DFEA"/>
+
+	<LinearLayout
+		style="@style/linearlayout_menu_item"
+		android:layout_marginTop="10dp"
+		android:onClick="onclick_enterGroup">
+
+		<ImageView
+			android:src="@drawable/ic_feedback"
+			style="@style/img1_menu_item"/>
+
+		<TextView
+			android:text="意见反馈"
+			style="@style/tv1_menu_item"
+			android:textSize="15sp"/>
+
+		<TextView
+			style="@style/tv2_menu_item"
+			android:text="0"
+			android:textColor="#1233D8"
+			android:visibility="gone"/>
+
+		<ImageView
+			android:src="@drawable/ic_arrow_right"
+			style="@style/img2_menu_item"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:background="#38DFEA"/>
+
+	<LinearLayout
+		style="@style/linearlayout_menu_item"
+		android:layout_marginTop="10dp"
+		android:onClick="onclick_about">
+
+		<ImageView
+			android:src="@drawable/ic_how"
+			style="@style/img1_menu_item"/>
+
+		<TextView
+			android:text="关于我们"
+			style="@style/tv1_menu_item"
+			android:textSize="15sp"/>
+
+		<TextView
+			style="@style/tv2_menu_item"
+			android:text="0"
+			android:textColor="#1233D8"
+			android:visibility="gone"/>
+
+		<ImageView
+			android:src="@drawable/ic_arrow_right"
+			style="@style/img2_menu_item"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:background="#38DFEA"/>
+
+</LinearLayout>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义属性 -->
+    <attr name="bg" format="reference|color" />
+    
+    <attr name="nobg" format="reference|color" />
+    <attr name="text_color" format="reference|color" />
+    
+    
+</resources>
+    
+    

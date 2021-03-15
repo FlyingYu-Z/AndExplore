@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--
+	Base application theme, dependent on API level. This theme is replaced
+	by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bg">@color/AppColor</item>
+        <item name="nobg">@android:color/white</item>
+        <item name="text_color">@color/grey</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+       
+        
+        
+    <!-- 日间主题 -->
+    <style name="DayTheme">
+        <item name="bg">@color/AppColor</item>
+        <item name="nobg">@android:color/transparent</item>
+    </style>
+
+    <!-- 夜间主题 -->
+    <style name="NightTheme">        
+        <item name="bg">@color/bg_night</item>
+        <item name="nobg">@color/bg_night</item>
+        <item name="text_color">@android:color/white</item>
+    </style>
+        
+        
+        
+	<style name="linearlayout_menu_item">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">35dp</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:background">?attr/nobg</item>
+		<item name="android:clickable">true</item>
+	</style>
+	
+	<style name="img1_menu_item">
+		<item name="android:layout_width">35dp</item>
+		<item name="android:layout_height">35dp</item>
+	</style>
+	
+	
+	<style name="tv1_menu_item">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/text_color</item>
+	</style>
+	
+	<style name="tv2_menu_item">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_weight">1.0</item>
+		<item name="android:textColor">#DE146A</item>
+	</style>
+	
+	
+	<style name="img2_menu_item">
+		<item name="android:layout_width">35dp</item>
+		<item name="android:layout_height">35dp</item>
+	</style>
+	
+	
+    
+</resources>

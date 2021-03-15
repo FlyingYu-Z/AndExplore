@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<ScrollView
+        android:scrollbars="none"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center_vertical">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical">
+
+				<ImageView
+					android:src="@drawable/ic_android"
+					android:layout_width="45dp"
+					android:layout_height="45dp"
+					android:id="@+id/view_apk_property_ImageView_icon"/>
+
+				<LinearLayout
+					android:layout_marginLeft="10dp"
+					android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="名称："
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:textStyle="bold"
+						android:id="@+id/view_apk_property_TextView_label"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="包名："
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:id="@+id/view_apk_property_TextView_pakName"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<com.beingyi.app.AE.ui.CopyTextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/view_apk_property_CopyTextView1"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="center_vertical"
+				android:layout_marginTop="10dp"/>
+
+			<com.beingyi.app.AE.ui.CopyTextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/view_apk_property_CopyTextView2"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="center_vertical"
+				android:layout_marginTop="10dp"/>
+
+			<com.beingyi.app.AE.ui.CopyTextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/view_apk_property_CopyTextView3"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="center_vertical"
+				android:layout_marginTop="10dp"/>
+
+			<com.beingyi.app.AE.ui.CopyTextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/view_apk_property_CopyTextView4"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="center_vertical"
+				android:layout_marginTop="10dp"/>
+
+			<com.beingyi.app.AE.ui.CopyTextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/view_apk_property_CopyTextView5"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="center_vertical"
+				android:layout_marginTop="10dp"/>
+            
+            <com.beingyi.app.AE.ui.CopyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_apk_property_CopyTextView6"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"/>
+            
+            
+            <com.beingyi.app.AE.ui.CopyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_apk_property_CopyTextView7"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"/>
+            
+            <com.beingyi.app.AE.ui.CopyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_apk_property_CopyTextView8"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"/>
+            
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

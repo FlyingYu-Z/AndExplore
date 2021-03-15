@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:title="@string/ae_124d90540313197854ae02905e4c94c1"
+        android:summary="显示以点号开头的文件"
+        android:key="pre_settings_viHideFiles"
+        android:defaultValue="true"/>
+
+
+    <SwitchPreference
+        android:title="@string/ae_8475e39e1630a877ddd928fe7fb6bfb6"
+        android:summary="隐藏点击粘贴按钮时出现的对话框"
+        android:key="pre_settings_hidePasteDialog"
+        android:defaultValue="false"/>
+
+
+    <ListPreference
+        android:title="@string/ae_295bb704f5205801d57d672780b94117"
+        android:summary="更换软件的界面语言"
+        android:entries="@array/language"
+        android:entryValues="@array/language_value"
+        android:key="pre_settings_language"/>
+
+
+</PreferenceScreen>

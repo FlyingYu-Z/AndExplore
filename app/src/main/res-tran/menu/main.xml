@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_paste"
+        android:orderInCategory="100"
+        android:title="@string/ae_eafbece1016a6af76cce466e55ad9f00"
+        android:icon="@drawable/ic_paste"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/ae_e366ccf1556c0672dcecba135ed5472e"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="@string/ae_a2946a1a42abc1e524ae69dd475b30af"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/ae_694fc5efa9e1d1c2c5eb6525e1c7fb29"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_addPath"
+        android:orderInCategory="100"
+        android:title="@string/ae_0b30610113e3ee7139de1993821e6dce"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_addWindow"
+        android:orderInCategory="100"
+        android:title="@string/ae_cd808d66d215480787b3b1b368fd852a"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_removeWindow"
+        android:orderInCategory="100"
+        android:title="@string/ae_bc09e2e503c10dfa94c8c44aaea5f268"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_copyCuPath"
+        android:orderInCategory="100"
+        android:title="@string/ae_5b100e97982fdaa243daf20c4c6a6b61"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="@string/ae_b04ec75cdeaa52470e063d6734d14a95"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/ae_c3992269b4bced00356095dc9c5be6d2"
+        app:showAsAction="never" />
+    
+    
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/item_app_ImageView1"/>
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:text="@string/ae_d7ec2d3fea4756bc1642e0f10c180cf5"
+            android:singleLine="true"
+            android:id="@+id/item_app_TextView1_appName"
+            android:textSize="10sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_height="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:text="@string/ae_fe2df04a168059a153dcd0f18f75d789"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:id="@+id/item_app_TextView1_versionName"/>
+
+        <TextView
+            android:layout_height="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:text="@string/ae_58f966670529f4753fb3c5a0647606be"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:id="@+id/item_app_TextView1_packageName"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:textColor="#E40909"
+        android:id="@+id/item_app_TextView_isBacked"
+        android:textSize="10sp"/>
+
+</LinearLayout>
+

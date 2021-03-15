@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="详细信息"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton1"/>
+
+		<View
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_height="match_parent"
+			android:layout_width="1dp"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="系统管理"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton2"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="卸载"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton3"/>
+
+		<View
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_height="match_parent"
+			android:layout_width="1dp"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="清除数据(ROOT)"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton4"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="强力卸载(ROOT)"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton5"/>
+
+		<View
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_height="match_parent"
+			android:layout_width="1dp"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="快捷启动"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton6"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="冻结应用(ROOT)"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton7"/>
+
+		<View
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_height="match_parent"
+			android:layout_width="1dp"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="保存图标"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton8"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="备份数据(ROOT)"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton9"/>
+
+		<View
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_height="match_parent"
+			android:layout_width="1dp"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="备份"
+			android:layout_weight="1.0"
+			android:id="@+id/viewappmenuButton10"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

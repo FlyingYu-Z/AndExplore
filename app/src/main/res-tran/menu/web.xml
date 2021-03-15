@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/action_web_open"
+        android:orderInCategory="100"
+        android:title="@string/ae_6a18b3866a29e47412db7e3e130545ca"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_web_refresh"
+        android:orderInCategory="100"
+        android:title="@string/ae_694fc5efa9e1d1c2c5eb6525e1c7fb29"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_web_copy"
+        android:orderInCategory="100"
+        android:title="@string/ae_879058ce06da016f3e2f79bdedc3e6b8"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_web_exit"
+        android:orderInCategory="100"
+        android:title="@string/ae_c3992269b4bced00356095dc9c5be6d2"
+        app:showAsAction="never" />
+
+
+</menu>

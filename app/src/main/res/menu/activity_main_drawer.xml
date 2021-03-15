@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_main_update"
+        android:icon="@drawable/ic_refresh"
+        android:title="检测更新"/>
+
+    <item
+        android:id="@+id/action_main_updateHistory"
+        android:icon="@drawable/ic_history"
+        android:title="更新历史"/>
+
+    <item
+        android:id="@+id/action_main_QQGroup"
+        android:icon="@drawable/ic_join_group"
+        android:title="加入官方QQ群"/>
+
+    <item
+        android:id="@+id/action_main_oslist"
+        android:icon="@drawable/ic_github"
+        android:title="开源项目"/>
+
+</menu>

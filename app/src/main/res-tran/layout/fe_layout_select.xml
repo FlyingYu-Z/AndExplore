@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+        <!--全选-->
+        <TextView
+            android:id="@+id/btn_select_all"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_66eeacd93a7c1bda93906fe908ad11a0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <!--复制-->
+        <TextView
+            android:id="@+id/btn_copy"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_79d3abe929f67f0644a78bf32adb3a89"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <!--剪切-->
+        <TextView
+            android:id="@+id/btn_cut"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_43fc77886b7fbcd658f0ccdba36bd5a0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <!--粘贴-->
+        <TextView
+            android:id="@+id/btn_paste"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_eafbece1016a6af76cce466e55ad9f00"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <!--分享-->
+        <TextView
+            android:id="@+id/btn_share"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_c31f48f84ef207e66a03c015a7243b43"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_625fb26b4b3340f7872b411f401e754c"
+            android:textColor="#000"
+            android:textSize="12dp" />
+    </LinearLayout>
+</LinearLayout>

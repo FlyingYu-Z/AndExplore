@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_main_update"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/ae_a2ab4a99f5b3da615aedd7762fcae32d"/>
+
+    <item
+        android:id="@+id/action_main_updateHistory"
+        android:icon="@drawable/ic_history"
+        android:title="@string/ae_d5dcc4adbaddba1984be043a9bf13636"/>
+
+    <item
+        android:id="@+id/action_main_QQGroup"
+        android:icon="@drawable/ic_join_group"
+        android:title="@string/ae_31ea588b191b8fb333a8d6370787fa92"/>
+
+    <item
+        android:id="@+id/action_main_oslist"
+        android:icon="@drawable/ic_github"
+        android:title="@string/ae_ab6eb4cc1d108e5fb0a8063ab7a7e439"/>
+
+</menu>

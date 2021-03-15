@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_dex_edit"
+        android:title="编辑"/>
+
+    <item
+        android:id="@+id/action_dex_tojar"
+        android:title="转为jar"/>
+
+    <item
+        android:id="@+id/action_dex_toSmali"
+        android:title="反编译到smali"/>
+
+    <item
+        android:id="@+id/action_dex_toJava"
+        android:title="反编译到java"/>
+
+    <item
+        android:id="@+id/action_dex_addDex"
+        android:title="添加dex"/>
+
+    <item
+        android:id="@+id/action_dex_enString"
+        android:title="加密字符串"/>
+
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beingyi.app.AE">
+
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEM"/>
+    
+    <application
+        android:name="com.beingyi.app.AE.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config">
+        
+        
+        <activity
+            android:name="com.beingyi.app.AE.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.beingyi.app.AE.activity.DexEditor"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.beingyi.app.AE.activity.TextEditor"
+            android:label="文本编辑器"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"/>
+
+        <activity
+            android:name="com.beingyi.app.AE.activity.OpenSourceList"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"/>
+
+        <activity
+            android:name="com.beingyi.app.AE.activity.webbrowser"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"/>
+
+
+        <activity
+            android:name="com.beingyi.app.AE.activity.settings"
+            android:label="设置"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"/>
+
+
+        <activity
+            android:name="com.beingyi.app.AE.activity.CodeViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"/>
+
+        <activity
+            android:name="zhao.arsceditor.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"/>
+
+
+        <activity
+            android:name=".activity.ArscEditor.ArscEditorActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"/>
+
+
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.beingyi.app.AE.install.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        
+    </application>
+
+</manifest>

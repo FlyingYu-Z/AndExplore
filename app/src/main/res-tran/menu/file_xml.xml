@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_xml_decompile"
+        android:title="@string/ae_3406e8f5c08f7e37f6026d0b36b04936"/>
+    
+    <item
+        android:id="@+id/action_xml_compile"
+        android:title="@string/ae_6c39cca5656c47ce118f69ba09d59c70"/>
+    
+    <item
+        android:id="@+id/action_xml_strings"
+        android:title="@string/ae_0fdeb468c5da7649a56a0d27607d818e"/>
+
+    <item
+        android:id="@+id/action_xml_edit"
+        android:title="@string/ae_95b351c86267f3aedf89520959bce689"/>
+    
+</menu>

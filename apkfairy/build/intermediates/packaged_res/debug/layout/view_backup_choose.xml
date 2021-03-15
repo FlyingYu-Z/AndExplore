@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/viewbackupchooseRadioGroup1">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="备份数据+应用"
+			android:id="@+id/viewbackupchooseRadioButton1"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="仅备份应用"
+			android:id="@+id/viewbackupchooseRadioButton2"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="仅备份数据"
+			android:id="@+id/viewbackupchooseRadioButton3"/>
+
+	</RadioGroup>
+
+</LinearLayout>
+

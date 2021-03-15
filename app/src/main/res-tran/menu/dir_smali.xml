@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    <item
+        android:id="@+id/action_dir_smali_entey"
+        android:title="@string/ae_84b2bd4a95e9cb9962a4eeb5e2cc2f93"/>
+
+    <item
+        android:id="@+id/action_dir_smali_toDex"
+        android:title="@string/ae_140a14f82e69da07ed17ba8a9098f569"/>
+    
+</menu>

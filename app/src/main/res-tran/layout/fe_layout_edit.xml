@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_select"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_153fa67a7fb6ada66a1fcccabbbfab72"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/btn_undo"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_bd9fcf46b4e5993f97fe04ee9ebcd7ed"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/btn_redo"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_c3c873d33f1c6482c79b0ffd862786cd"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <!--粘贴-->
+        <TextView
+            android:id="@+id/btn_paste"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/ae_eafbece1016a6af76cce466e55ad9f00"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

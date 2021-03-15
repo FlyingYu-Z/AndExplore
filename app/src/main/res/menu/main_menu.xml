@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_main_search"
+        android:orderInCategory="100"
+        android:title="搜索"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_main_collection"
+        android:orderInCategory="100"
+        android:title="书签"
+        android:icon="@drawable/ic_collection"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_main_new"
+        android:orderInCategory="100"
+        android:title="新建"
+        android:icon="@drawable/ic_new"
+        app:showAsAction="always" />
+
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_main_back"
+        android:orderInCategory="100"
+        android:title="后退"
+        android:icon="@drawable/ic_back"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_main_home"
+        android:orderInCategory="100"
+        android:title="主页"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always" />
+
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_main_ahead"
+        android:orderInCategory="100"
+        android:title="前进"
+        android:icon="@drawable/ic_ahead"
+        app:showAsAction="always" />
+
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_main_go"
+        android:orderInCategory="100"
+        android:title="转到"
+        android:icon="@drawable/ic_go"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_main_refresh"
+        android:orderInCategory="100"
+        android:title="刷新"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_main_apps"
+        android:orderInCategory="100"
+        android:title="安装包提取"
+        android:icon="@drawable/ic_android"
+        app:showAsAction="always" />
+
+
+
+</menu>

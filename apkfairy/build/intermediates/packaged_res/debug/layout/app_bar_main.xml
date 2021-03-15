@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true"
+	tools:context="com.beingyi.apkfairy.activity.MainActivity">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+
+		<FrameLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="?attr/bg"
+				app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+
+		<LinearLayout
+			android:layout_height="?attr/actionBarSize"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="?attr/bg"
+			android:gravity="left|center"
+			android:id="@+id/activitymainLinearLayout_haschoice">
+
+			<ImageView
+				android:layout_height="35dp"
+				android:layout_width="35dp"
+				android:src="@drawable/ic_ok"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:text="已选:"
+				android:layout_weight="1.0"
+				android:id="@+id/activitymainTextView_info"
+				android:textColor="#FFFFFF"/>
+
+			<Button
+				android:layout_height="35dp"
+				android:layout_width="70dp"
+				android:text="取消"
+				android:gravity="center"
+				android:textStyle="bold"
+				android:textSize="10sp"
+				android:onClick="onclick_cancel"/>
+
+			<Button
+				android:layout_height="35dp"
+				android:layout_width="70dp"
+				android:text="备份"
+				android:gravity="center"
+				android:textStyle="bold"
+				android:textSize="10sp"
+				android:onClick="onclick_backup"/>
+
+		</LinearLayout>
+
+		</FrameLayout>
+		
+		
+	</android.support.design.widget.AppBarLayout>
+
+	<include
+		layout="@layout/content_main"/>
+
+</android.support.design.widget.CoordinatorLayout>
+
