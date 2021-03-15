@@ -1,7 +1,9 @@
 # AndExplore
 中文：AE管理器
 
-![](https://github.com/FlyingYu-Z/ApkEncryptor/raw/main/screenshot.png)
+![](https://github.com/FlyingYu-Z/AndExplore/blob/main/screenshots/1.jpg)
+
+![](https://github.com/FlyingYu-Z/AndExplore/blob/main/screenshots/2.jpg)
 
 
 功能：
